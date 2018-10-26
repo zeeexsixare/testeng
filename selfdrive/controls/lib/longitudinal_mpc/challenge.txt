@@ -1,5 +1,3 @@
-This repository is a basis for the test engineering challenge via Willem Melching.  Challenge text below:
-------
 This is the comma.ai Test Engineer challenge. The purpose of this challenge is to test
 the longitudinal (gas/brake) planning abilities of Openpilot. The longitudinal plan is
 done using Model Predictive Control (MPC). For this challenge the planning algorithm can be
@@ -8,8 +6,8 @@ treated as a black box. Your goal is to run the planning algorithm through a som
 The challenge:
  - Clone the openpilot repository (https://github.com/commaai/openpilot)
  - Rebuild the MPC binaries for x86/x64 instead of arm (cd selfdrive/controls/lib/longitudinal_mpc && make clean && make -j4)
- - Use the provided python file (lateral_mpc.py, long?) as wrapper for MPC. Look at the main function for an example on how to use
- - Build a simple simulor that uses the plan provided by MPC. See lateral_mpc.py (long?) for an example.
+ - Use the provided python file (lateral_mpc.py) as wrapper for MPC. Look at the main function for an example on how to use
+ - Build a simple simulor that uses the plan provided by MPC. See lateral_mpc.py for an example.
  - Run the simulator through the following scenarios:
    - Approaching a stopped car at different speeds (5, 10, 20, 30 m/s from 200m of initial distance)
    - Emergency stop, lead car brakes at 9.81 m/s^2 starting at 30 m/s, from an initial distance of 100m
