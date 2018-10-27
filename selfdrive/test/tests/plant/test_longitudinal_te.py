@@ -75,7 +75,7 @@ maneuvers = [
     cruise_button_presses = [(CB.DECEL_SET, 1.2), (0, 1.3)],
     ),
   Maneuver(
-    "Emergency stop, while cruising at 250m/s, lead car brakes at 9.81 m/s^2 starting at 30 m/s, from an initial distance of 100m",
+          "Emergency stop, while cruising at 25m/s, lead car brakes at 9.81 m/s^2 starting at 30 m/s, from an initial distance of 100m",
     duration=30.,
     initial_speed=25.,
     lead_relevancy=True,
